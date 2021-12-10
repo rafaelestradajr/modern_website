@@ -3,9 +3,9 @@ import { Article,Brand,CTA,Navbar } from './components';
 import './App.css';
 import { Footer,Blog,Possibility,Features,WhatGPT3,Header} from './containers';
 
-const App = () => {
-    return (
-        <div>
+const App = () => (
+   
+        
        <div className="App">
            <div className="gradient__bg">
                <Navbar/>
@@ -19,12 +19,11 @@ const App = () => {
            <Blog/>
            <Footer/>
        </div>
-        </div>
-    )
-}
+       
+    );
 
-export default App
 
+export default App;
 
 
 
